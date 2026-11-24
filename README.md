@@ -3,6 +3,7 @@
 Site de logística para lojas que fazem entregas (tecnologia, colchões, carros e casas). Projeto final da disciplina de Desenvolvimento de Interfaces.
 
 **Versão atual: v2.0**
+link do site: https://thiagoal9.github.io/entregacheck-v2.0-final/
 
 
 ## Sobre o projeto
