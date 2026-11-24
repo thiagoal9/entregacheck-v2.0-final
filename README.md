@@ -4,7 +4,6 @@ Site de logística para lojas que fazem entregas (tecnologia, colchões, carros 
 
 **Versão atual: v2.0**
 
-Site online: https://thiagoal9.github.io/entregacheck-v1.0/
 
 ## Sobre o projeto
 
