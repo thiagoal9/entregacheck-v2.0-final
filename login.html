@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Logística e entregas para lojas de tecnologia, colchões, carros e casas.">
+<title>Login – EntregaCHECK</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Source+Sans+3:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+<div class="acess" role="region" aria-label="Acessibilidade"><div class="wrap">
+<strong>Acessibilidade:</strong>
+<button id="maior" aria-label="Aumentar fonte">A+</button>
+<button id="menor" aria-label="Diminuir fonte">A-</button>
+<button id="normal" aria-label="Fonte padrão">A</button>
+<button id="tema">Modo escuro</button>
+</div></div>
+<header><div class="wrap">
+<a class="logo" href="index.html">Entrega<span>CHECK</span></a>
+<nav aria-label="Principal"><ul>
+<li><a href="index.html#lojas">Lojas</a></li>
+<li><a href="rastreio.html">Rastreio</a></li>
+<li><a href="cotacao.html">Cotação</a></li>
+<li><a href="index.html#como">Como funciona</a></li>
+<li><a href="index.html#galeria">Galeria</a></li>
+<li><a href="index.html#contato">Contato</a></li>
+<li><a class="btn" href="login.html">Entrar</a></li>
+</ul></nav>
+</div></header>
+<main id="conteudo" class="login">
+<form data-ok="Login simulado com sucesso! (sem servidor)">
+<h1>Entrar</h1>
+<label for="user">E-mail</label><input id="user" type="email" required autocomplete="username">
+<label for="senha">Senha</label><input id="senha" type="password" required minlength="6" autocomplete="current-password">
+<p><button type="submit">Entrar</button></p>
+<p class="msg" role="status"></p>
+<p><a href="index.html">← Voltar ao site</a></p>
+</form>
+</main>
+<footer><div class="wrap">
+<div><strong class="logo">Entrega<span>CHECK</span></strong><p>Logística para lojas que entregam.<br> .</p></div>
+<div><strong>Links</strong><br><a href="index.html#lojas">Lojas</a><br><a href="login.html">Login</a><br><a href="index.html#contato">Contato</a></div>
+<div><strong>Contato</strong><br>contatoentregacheck@gmail.com<br>Brasília – DF</div>
+</div><p class="wrap">© 2026 EntregaCHECK. Todos os direitos reservados.</p></footer>
+<script src="script.js"></script>
+</body>
+</html>

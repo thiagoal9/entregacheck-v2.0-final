@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Logística e entregas para lojas de tecnologia, colchões, carros e casas.">
+<title>Cotação de frete – EntregaCHECK</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Source+Sans+3:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+<div class="acess" role="region" aria-label="Acessibilidade"><div class="wrap">
+<strong>Acessibilidade:</strong>
+<button id="maior" aria-label="Aumentar fonte">A+</button>
+<button id="menor" aria-label="Diminuir fonte">A-</button>
+<button id="normal" aria-label="Fonte padrão">A</button>
+<button id="tema">Modo escuro</button>
+</div></div>
+<header><div class="wrap">
+<a class="logo" href="index.html">Entrega<span>CHECK</span></a>
+<nav aria-label="Principal"><ul>
+<li><a href="index.html#lojas">Lojas</a></li>
+<li><a href="rastreio.html">Rastreio</a></li>
+<li><a href="cotacao.html">Cotação</a></li>
+<li><a href="index.html#como">Como funciona</a></li>
+<li><a href="index.html#galeria">Galeria</a></li>
+<li><a href="index.html#contato">Contato</a></li>
+<li><a class="btn" href="login.html">Entrar</a></li>
+</ul></nav>
+</div></header>
+<main id="conteudo"><section><div class="wrap">
+<h1>Cotação de frete</h1>
+<p class="dica">Valores e prazos de exemplo, só para simulação.</p>
+<form id="form-cotacao" data-js>
+<label for="origem">Região de origem</label>
+<select id="origem"><option value="CO">Centro-Oeste</option><option value="SE">Sudeste</option><option value="S">Sul</option><option value="NE">Nordeste</option><option value="N">Norte</option></select>
+<label for="destino">Região de destino</label>
+<select id="destino"><option value="CO">Centro-Oeste</option><option value="SE">Sudeste</option><option value="S">Sul</option><option value="NE">Nordeste</option><option value="N">Norte</option></select>
+<label for="cat">Tipo de produto</label>
+<select id="cat"><option value="tecnologia">Tecnologia</option><option value="colchoes">Colchões</option><option value="carros">Carros</option><option value="casas">Casas</option></select>
+<label for="peso">Peso (kg)</label>
+<input id="peso" type="number" min="1" value="10" required>
+<label for="urg">Urgência</label>
+<select id="urg"><option value="n">Normal</option><option value="e">Expresso</option></select>
+<p><button type="submit">Calcular</button></p>
+</form>
+<div class="res" id="res-cotacao" role="status" aria-live="polite" hidden></div>
+</div></section></main>
+<footer><div class="wrap">
+<div><strong class="logo">Entrega<span>CHECK</span></strong><p>Logística para lojas que entregam.<br>Projeto acadêmico – Desenvolvimento de Interfaces.</p></div>
+<div><strong>Links</strong><br><a href="index.html#lojas">Lojas</a><br><a href="login.html">Login</a><br><a href="index.html#contato">Contato</a></div>
+<div><strong>Contato</strong><br>contato@entregacheck.exemplo<br>Brasília – DF</div>
+</div><p class="wrap">© 2026 EntregaCHECK. Todos os direitos reservados.</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
